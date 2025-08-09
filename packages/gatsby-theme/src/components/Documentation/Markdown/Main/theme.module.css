@@ -39,8 +39,12 @@
       margin: 0;
       padding: 1em;
       overflow: initial;
-      float: left; /* 1 */
-      min-width: 100%; /* 2 */
+      float: left;
+
+      /* 1 */
+      min-width: 100%;
+
+      /* 2 */
     }
 
     code[class*='language-'],
@@ -58,7 +62,8 @@
       tab-size: 4;
       hyphens: none;
       letter-spacing: 0.5px;
-      text-shadow: 0 1px #222245;
+
+      /* text-shadow: 0 1px #222245; */
     }
 
     pre[class*='language-']::selection,
@@ -68,9 +73,9 @@
     pre[class*='language-']::selection,
     pre[class*='language-'] ::selection,
     code[class*='language-']::selection,
-    code[class*='language-'] ::selection {
+    code[class*='language-']::selection {
       color: inherit;
-      background: #445262;
+      background: #445262fa;
     }
 
     /* Code blocks. */
